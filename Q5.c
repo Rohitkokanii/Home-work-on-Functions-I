@@ -10,5 +10,12 @@ int main() {
 	printf("\nEnter Char = ");
 	scanf_s("%c", &ch, 1);
 
+	if (checkAlph(ch)) {
+		printf("\nAlphabate\n");
+	}
+	else {
+		printf("\nNot Alphabate\n");
+	}
+
 	return 0;
 }
